@@ -1,12 +1,10 @@
 # Maternal Health Risk Stratification
 
-Portfolio-ready machine learning project that reproduces the findings of the accompanying technical report and Kaggle notebook while elevating the storytelling, data quality checks, and ordinal classification strategy.
-
 ## Project Highlights
 - **Clinical motivation.** Maternal and infant mortality remains ~295k deaths/year worldwide; proactive risk stratification helps clinicians allocate care.
 - **Dataset.** UCI Maternal Health Risk (1,014 records of prenatal vital signs gathered via IoT devices in hospitals and community clinics).
 - **Approach.** Rigorous data quality audit plus a **Cumulative Ordinal Classification** pipeline (two binary tasks for \(y\geq1\) and \(y\geq2\)) using RandomForest, KNN, and XGBoost candidates.
-- **Key metrics.** RandomForest ordinal model reached **Accuracy 76.47%**, **F1-Weighted 0.7238**, and **Quadratic Weighted Kappa (QWK) 0.7815**.
+- **Key metrics.** RandomForest ordinal model reached **Accuracy 76.47%**, **F1-Weighted 0.7238** (outperforming the best Kaggle F1-Weighted benchmark (as of Nov 11 2025)), and **Quadratic Weighted Kappa (QWK) 0.7815**.
 - **Kaggle notebook.** Executable version hosted at [Classification – Prenatal Care Decision Support](https://www.kaggle.com/code/diogonoglima/classification-prenatal-care-decision-support).
 
 ## Repository Structure
